@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-77NxIjbGUFnkN04B2qgl3zEDyaqwk",
+    "object": "chat.completion",
+    "created": 1681994736,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 10,
+        "completion_tokens": 26,
+        "total_tokens": 36
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "こんにちは！私はAIアシスタントです。どんなお手伝いができますか？"
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}
