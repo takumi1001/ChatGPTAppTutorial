@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "chatgptapptutorial"
+version = "0.1.0"
+description = "Tutorial for making a web app with ChatGPT API for programming begineers."
+authors = ["Takumi Tamura <tamutamuphone@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.2.3"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
