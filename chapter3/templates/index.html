@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>何を勉強すればいいですか？</title>
+        <meta charset="utf-8">  <!-- この行はおまじないのようなものです -->
+    </head>
+    <body>
+        <h1>何を勉強すればいいですか？</h1>
+
+        <p>
+            実現したいことを書くとChatGPTが何を勉強すればいいのか教えてくれます。
+        </p>
+
+        <form action="/query" method="post">
+            <textarea name="prompt_text" rows="5" cols="64" placeholder="プロンプトを入れてください" ></textarea>
+            <br />
+            <input type="submit" value="送信" />
+        </form>
+    </body>
+</html>
